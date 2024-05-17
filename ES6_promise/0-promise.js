@@ -1,5 +1,6 @@
-export default function getResponseFromAPI() {
+function getResponseFromAPI() {
 	return new Promise((resolve) => { 
-	  resolve();
+	  resolve('resolved');
 	});
 }
+export default getResponseFromAPI;
